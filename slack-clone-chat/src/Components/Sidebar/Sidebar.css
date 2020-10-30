@@ -1,0 +1,58 @@
+.sidebar {
+  background-color: rgb(16, 94, 114);
+  color: rgb(29, 34, 63);
+  max-width: 240px;
+  border-right: 2px solid rgb(48, 147, 172);
+  flex: 0.3;
+}
+
+.sidebar-header {
+  display: flex;
+  border-bottom: 2px solid rgb(48, 147, 172);
+  padding: 10px;
+}
+
+.sidebar-info {
+  flex: 1;
+}
+
+.sidebar-info > h2 {
+  font-size: 15px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.sidebar-info > h3 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sidebar-info > h3 .MuiSvgIcon-root {
+  font-size: 16px;
+  margin-top: 1px;
+  margin-right: 2px;
+  color: chartreuse;
+}
+
+.sidebar-header > .MuiSvgIcon-root {
+  padding: 10px;
+  color: rgb(48, 147, 172);
+  border: 1px solid rgb(29, 34, 63);
+  font-size: 18px;
+  background-color: rgb(29, 34, 63);
+  border-radius: 999px;
+}
+
+.sidebar-header > .MuiSvgIcon-root:hover {
+  color: rgb(29, 34, 63);
+  border: 1px solid rgb(48, 147, 172);
+  background-color: aqua;
+  opacity: 0.4;
+}
+
+.sidebar hr {
+  color: aqua;
+  opacity: 0.6;
+}

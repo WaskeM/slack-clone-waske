@@ -1,0 +1,83 @@
+.chatInput {
+  border-radius: 20px;
+}
+
+.chatInput>form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.chatInput>form>input {
+  position: fixed;
+  bottom: 20px;
+  left: 260px;
+  width: 70%;
+  border: 3px solid #0b6161;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.chatInput>form>button {
+  display: none !important;
+}
+
+.button {
+  position: fixed;
+  bottom: 100px;
+  right: 60px;
+  background: #0b6161;
+  height: 50px;
+  width: 50px;
+  color: aliceblue;
+  font-weight: 700;
+  align-content: center;
+  justify-content: center;
+}
+
+.button2 {
+  position: fixed;
+  bottom: 100px;
+  right: 110px;
+  background: #0b6161;
+  height: 50px;
+  width: 50px;
+  color: aliceblue;
+  font-weight: 700;
+  align-content: center;
+  justify-content: center;
+}
+
+label input {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+label {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--primary);
+  border-radius: 50%;
+  line-height: 50px;
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 24px;
+  right: 100px;
+  bottom: 160px;
+}
+
+
+label:hover {
+  background: var(--primary);
+  color: white;
+}
+
+.output {
+  height: 60px;
+  font-size: 0.8rem;
+}
